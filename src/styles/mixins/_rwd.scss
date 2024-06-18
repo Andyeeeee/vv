@@ -1,0 +1,31 @@
+// RWD mixins
+
+@mixin sm {
+  @media (min-width: $breakpiont-sm) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: $breakpiont-md) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: $breakpiont-lg) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: $breakpiont-xl) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: $breakpiont-xxl) {
+    @content;
+  }
+}

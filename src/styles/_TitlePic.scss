@@ -1,0 +1,16 @@
+#title-pic {
+  // min-height: 20vh;
+  background-image: url('../assets/title-pic.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: italic;
+}

@@ -1,0 +1,76 @@
+#movie {
+
+  padding: 0 10%;
+
+  .movie-box {
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin-bottom: 10%;
+    display: flex;
+  }
+
+  .movie-pic {
+    max-height: 240px;
+
+  }
+
+  .left-box {
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+
+    img {
+      width: 90%;
+    }
+  }
+
+  .level {
+    width: 50%;
+  }
+
+  .right-box {
+    padding: 5%;
+
+
+    .name {
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    .time {
+      color: rgb(78, 78, 78);
+    }
+
+
+  }
+
+
+}
+
+@include sm {
+
+
+  .left-box {
+    padding: 5px;
+  }
+
+
+  .movie-pic {
+    height: 240px;
+    object-fit: contain;
+  }
+
+  .left-box {
+    width: auto;
+  }
+
+  .right-box {
+
+    .name {
+
+      font-size: 30px;
+    }
+
+
+  }
+}

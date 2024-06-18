@@ -1,0 +1,36 @@
+#store {
+  padding: 0 5%;
+
+  .v-row {
+    margin: 0;
+    padding: 0 !important;
+
+    .v-col {
+      padding: 2%;
+      // margin-bottom: 20px;
+      // background-color: chocolate;
+      height: 250px;
+
+      .text-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 100%;
+        color: white;
+        font-weight: bolder;
+        font-size: 50px;
+        text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+        -webkit-text-stroke: 1px #000000;
+        font-weight: bold;
+
+        &:hover {
+          cursor: pointer;
+          outline: 10px dashed rgb(255, 119, 1);
+          outline-offset: -10px;
+        }
+      }
+    }
+  }
+}

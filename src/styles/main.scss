@@ -1,0 +1,13 @@
+//變數
+@import '_variables.scss';
+//RWD
+@import 'mixins/_rwd.scss';
+//全域變數
+@import '_global.scss';
+//各區
+@import '_fornt-layout.scss';
+@import '_TitlePic.scss';
+@import '_FrontLayout.scss';
+@import '_Store.scss';
+@import '_Movie.scss';
+@import '_Login.scss'
