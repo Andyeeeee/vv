@@ -1,4 +1,4 @@
-<template>
+<template>asdasd
   <v-app>
     <router-view />
   </v-app>
